@@ -29,3 +29,12 @@ CMD ["node", "/web-ping/app.js"]
 - `CMD ["node", "/web-ping/app.js"]` : 컨테이너 실행시 node /web-ping/app.js를 실행하겠다는 의미
 
 <br/>
+
+
+``docker image build --tag web-ping .``
+
+- `docker image build` : 도커 이미지를 빌드하는 명령어
+- `--tag web-ping` : web-ping이라는 태그를 붙여서 빌드하겠다는 의미
+- `.` : 현재 디렉토리를 기준으로 빌드하겠다는 의미
+- `docker image build --tag web-ping .` : 현재 디렉토리에 있는 Dockerfile을 기반으로 web-ping이라는 태그를 붙여서 도커 이미지를 빌드하겠다는 의미
+
